@@ -51,12 +51,13 @@ const HomeScreen = () => {
 
         <Styled.ViewTripContainer
           backColor={myColor.white}
-          shadowColor={myColor.black}>
+          style={sizes.shadowStyle}>
           <Styled.ViewTripTypeContainer borderBottomColor={myColor.grey1}>
             <Styled.TouchableOpacityTypeContainer
               backColor={myColor.white}
               borderBottomColor={myColor.primary}
-              borderTopLeftRedius={'10px'}>
+              borderTopLeftRedius={'10px'}
+              borderTopRightRadius={'0px'}>
               <Styled.TextTripType color={myColor.primary}>
                 One Way
               </Styled.TextTripType>
@@ -64,6 +65,7 @@ const HomeScreen = () => {
             <Styled.TouchableOpacityTypeContainer
               backColor={myColor.lightGray1}
               borderBottomColor={myColor.grey1}
+              borderTopLeftRedius={'0px'}
               borderTopRightRadius={'10px'}>
               <Styled.TextTripType color={myColor.darkGray}>
                 Round Trip
@@ -105,12 +107,14 @@ const HomeScreen = () => {
         </Styled.ViewTripContainer>
 
         <Styled.TouchableOpacitySearchButton backColor={myColor.primary}>
-          <Styled.TextSearchButton color={myColor.white} fontSize={sizes.body3}>Search</Styled.TextSearchButton>
+          <Styled.TextSearchButton color={myColor.white} fontSize={sizes.body3}>
+            Search
+          </Styled.TextSearchButton>
         </Styled.TouchableOpacitySearchButton>
 
         <Styled.ViewImageContainer>
-          <Styled.ImageSize source={images.travel1}/>
-          <Styled.ImageSize source={images.travel3}/>
+          <Styled.ImageSize source={images.travel1} />
+          <Styled.ImageSize source={images.travel3} />
         </Styled.ViewImageContainer>
       </Styled.ScrollView>
     </Styled.SafeAreaView>

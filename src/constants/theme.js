@@ -1,19 +1,19 @@
-import { Dimensions } from "react-native";
+import {Dimensions} from 'react-native';
 
 const {width, height} = Dimensions.get('screen');
 
 export const myColor = {
-    primary: '#1296E1',
-    softPrimary: '#EEFBFF',
-    white: '#ffffff',
-    black: '#000000',
-    red: '#ff0000',
-    grey: '#BBBDC1',
-    grey1: '#CFD0D7',
-    lightGray1: '#EFEFF1',
-    darkGray: '#525C67',
-    orange: '#ED6C03',
-}
+  primary: '#1296E1',
+  softPrimary: '#EEFBFF',
+  white: '#ffffff',
+  black: '#000000',
+  red: '#ff0000',
+  grey: '#BBBDC1',
+  grey1: '#CFD0D7',
+  lightGray1: '#EFEFF1',
+  darkGray: '#525C67',
+  orange: '#ED6C03',
+};
 
 export const sizes = {
   h1: '30px',
@@ -38,8 +38,8 @@ export const sizes = {
   shadowStyle: {
     shadowColor: myColor.black,
     shadowOffset: {width: 1, height: 1},
-    shadowOpacity: 0.5,
+    shadowOpacity: 0.2,
     shadowRadius: 2,
     elevation: 5,
   },
-}
+};
