@@ -16,19 +16,19 @@ export const myColor = {
 }
 
 export const sizes = {
-  h1: 30,
-  h2: 22,
-  h2betweenh3: 20,
-  h3: 16,
-  h4: 14,
-  h5: 12,
-  h6: 10,
-  body1: 30,
-  body2: 22,
-  body3: 16,
-  body4: 14,
-  body5: 12,
-  body6: 10,
+  h1: '30px',
+  h2: '22px',
+  h2betweenh3: '20px',
+  h3: '16px',
+  h4: '14px',
+  h5: '12px',
+  h6: '10px',
+  body1: '30px',
+  body2: '22px',
+  body3: '16px',
+  body4: '14px',
+  body5: '12px',
+  body6: '10px',
 
   // app dimensions
   width,
